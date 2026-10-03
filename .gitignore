@@ -1,0 +1,137 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ================================
+# Virtual Environment
+# ================================
+venv/
+env/
+.venv/
+ENV/
+
+# ================================
+# Environment / Secrets
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# VS Code
+# ================================
+.vscode/
+*.code-workspace
+
+# ================================
+# PyCharm
+# ================================
+.idea/
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
+
+# ================================
+# Airflow
+# ================================
+airflow/logs/
+airflow/airflow.cfg
+airflow/airflow.db
+airflow/.airflowignore
+airflow/__pycache__/
+
+# Airflow generated files
+airflow/dags/__pycache__/
+airflow/plugins/__pycache__/
+
+# ================================
+# AWS
+# ================================
+.aws/
+*.pem
+*.key
+
+# ================================
+# Snowflake
+# ================================
+# Ignore local credentials/config files
+snowflake/.env
+snowflake/credentials.json
+
+# ================================
+# Data files
+# ================================
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.db
+*.sqlite
+*.sqlite3
+
+# Large datasets
+data/
+datasets/
+
+# ================================
+# ML / Model Files
+# ================================
+models/
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# ================================
+# Temporary files
+# ================================
+*.tmp
+*.temp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# ================================
+# Build / Distribution
+# ================================
+build/
+dist/
+*.egg-info/
+
+# ================================
+# Coverage / Testing
+# ================================
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# ================================
+# Secrets / Credentials
+# ================================
+credentials.json
+secrets.json
+service-account.json
+client_secret.json
+
+# ================================
+# OS files
+# ================================
+.DS_Store
+Thumbs.db
